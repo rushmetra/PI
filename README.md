@@ -1,5 +1,5 @@
 # Programação Imperativa
-Tudo o que usei em PI, UC de MIEI, programando em C.
+Tudo o que usei em PI, programando em C.
 
 ## Fichas práticas
 - Ficha 6
