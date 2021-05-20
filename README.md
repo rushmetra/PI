@@ -8,4 +8,4 @@ Tudo o que usei em PI, programando em C.
 - Ficha 10
 ## 100 Questões
 - 50.c
-- 100.c
+- 100.c (tenho que fazer)
