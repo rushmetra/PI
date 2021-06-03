@@ -395,6 +395,7 @@ int elimRep (int v[], int n) {
 
 //34 
 int elimRepOrd (int v[], int n) {
+
     int i, j, l;
 
     for (i = 0; i < n; i++) 
@@ -499,7 +500,7 @@ void addTo(int N, int M, int a [N][M], int b[N][M]) {
              int c;
       for(c = 0; c < N; c++) {
           if(v1[c] || v2[c]) r[c] = 1;
-          else r[c] = 0; // ou r[c] = v1[c] && v2[c] 
+          else r[c] = 0; // ou r[c] = v1[c] || v2[c] 
       }
 
       return c;
@@ -602,5 +603,5 @@ int vizinhos (Posicao p, Posicao pos[], int N) {
     int i, count = 0;
     for (i = 0; i < N; i++) 
         count += pow(pos[i].x - p.x, 2) + pow(pos[i].y - p.y, 2) < 2 && !iguais(p, pos[i]);
-    return count;;
+    return count;
 }
