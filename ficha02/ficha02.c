@@ -58,7 +58,7 @@ int fib (int n) {
 }
 
 int fib2(int n) {
-    int temp, aux1 = 1, aux2 = 1;
+    int i, temp, aux1 = 1, aux2 = 1;
     for(i = 3; i <= n; i++) {
         temp = aux2;
         aux2 += aux1;
